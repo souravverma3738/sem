@@ -186,7 +186,11 @@ public class App
 
     // Test the size of the returned data - should be 240124
     System.out.println(employees.size());
-
+     System.out.println("your list is here");
+     for(int i=0; i<employees.size();i++)
+     {
+         System.out.println(employees.get(i));
+     }
 
     // Disconnect from database
     a.disconnect();
